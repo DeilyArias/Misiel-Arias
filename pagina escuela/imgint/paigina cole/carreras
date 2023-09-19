@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nombre de la escuela - Página de inicio</title>
+	<link rel="stylesheet" href="Estilo1.css">
+</head>
+<body>
+	<header>
+		<div id="baner">
+			<figure>
+				<div id="imgbaner"> </div>
+			</figure>
+		</div>
+		<br>
+		<nav>
+			<ul>
+				<li><a href="PagVisual.html">Inicio</a></li>
+				<li><a href="Informacion.html">Información</a></li>
+				<li><a href="carreras.html">Carreras</a></li>
+				<li><a href="Profesores.html">Profesores</a></li>
+				<li><a href="Noticias y eventos.html">Noticias y eventos</a></li>
+				<li><a href="Contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<section id="carreras">
+			<aside>
+				
+		    <aside>
+				<center><h2>Otros temas</h2></center>
+			    <ul>
+				<center><li><a href="Banner.html">Banner</a></li></center>	
+			    <center><li><a href="Banner.html">Videos Tutoriales</a></li></center>
+			    <center><li><a href="Banner.html">Curso Sugeridos</a></li></center>
+				</ul>
+			</aside>
+	
+			    <h2>Información de la escuela</h2>
+			    <article>
+       </section>
+	</section>
+	    <section>
+	      <div>
+
+		<h3> Estudios Actuales en el Instituto Choloma </h3><br>
+	    </div>
+	    <article>
+		
+		<h2> Educacion de Tercer Ciclo Basico</h2>
+		<h4> Septimo Grado, Octavo Grado y Noveno Grado</h4><br>
+		<h3> ¿Que es la educación de tercer ciclo básico?</h3>
+		<p> La Educación Básica está conformada por un primer ciclo (1° a 3° grado) y un segundo ciclo (4° a 6° grado) 
+		y un tercer ciclo (7° a 9° grado) sustitutivos estos de lo que fue el ciclo comun. En la implementación del primero 
+		y segundo ciclos, no se han producido mayores problemas. Prácticamente es la sustitución de la denominación educación 
+		primaria, desde sus docentes ya son preexistentes con titulo habilitante a nivel de licenciatura. Además en la Universidad 
+		Pedagogica Nacional ya existe una especialidad formatica para estos dos niveles.
+		</p><br>
+	</article>
+	<div>
+		<h2> Bachillerato Tecnico Profesional en Informática (BTP en Informática) </h2>
+	</div>
+	<article>
+		<h4> Primer, Segundo y Tercer año de Bachillerato</h4><br>
+		<center> <h3> ¿Que es el Bachillerato en Informática </h3></center>
+		
+		<p> El Bachillerato Tecnico Profesional en Informática prepara a los egresados para desempeñarse en cualquier institución o 
+	 
+		
+	<footer>
+		<center><p>Derechos de autor © 2023 Nombre de la escuela</p></center>
+	</footer>
+</body>
+</html>

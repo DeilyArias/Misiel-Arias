@@ -1,0 +1,138 @@
+/* Definir la fuente y el color de fondo de la página */ 
+body{
+	font-family: sans-serif;
+	background-color: #88a1eec1;
+}
+
+/* Definir el estilo del encabezado */
+ header { 
+	overflow: hidden; 
+	width: 890px; 
+	margin: 10px auto 5px auto;
+}
+
+header #baner{
+	width: 100%;
+	height: 200px;
+}
+
+header #baner figure #imgbaner{
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	height: 200px;
+	background: url(imgint/baner.png);
+	border-radius: 20px;
+}
+
+
+/* Definir el estilo del menú de navegación*/ 
+nav {
+	background-color: #cd92b6;
+	padding: 15px;
+}
+
+nav ul {
+	list-style-type: none; 
+	margin:0;
+	padding: 0;
+	display: flex; 
+	justify-content: space-between;
+ }
+
+nav li { 
+	margin: 0 2px;
+}
+
+nav a {
+	color: rgb(247, 247, 247);
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+nav a:hover { 
+	color: rgb(238, 230, 230);
+	background-color:rgb(219, 43, 66);
+}
+
+section{
+	width: 100%;
+	overflow: hidden;
+	background: rgb(255, 255, 255);
+}
+
+section #info{
+	overflow: hidden;
+	width: 800px;
+	margin: 0px auto 5px auto;
+}
+
+section #info aside {
+	float: left;
+	width: 220px;
+}
+
+section #info aside {
+	padding: 0px 0px 20px 0px;
+	color: black;
+	letter-spacing: -1px;
+	font-size: 1.5em;
+}
+
+section #info aside h2 {
+	padding: 0px 0px 20px 0px;
+	color: black;
+	letter-spacing: -1;
+	font-size: 25px;
+}
+
+section #info aside ul li {
+	list-style:none;
+	padding: 15px 0px;
+	border-top: 1px dashed #1a0b81;
+}
+
+section #informacion aside ul li a {
+	text-decoration: none;
+	color: #1a0b81;
+	font-size: 10px;
+}
+
+
+/* Definir el estilo de los enlaces */
+
+a {
+	color: rgb(20, 23, 24);
+	text-decoration: none;
+}
+	
+a:hover {
+	text-decoration:none;
+}
+$carousel-control-color:             $white;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
